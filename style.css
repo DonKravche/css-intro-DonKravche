@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F7;
+}
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 50px;
+}
+
+.logo {
+    width: 152px;
+    height: 50px;
+    background-color: rgb(240, 237, 255);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #5B47D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.nav-links, a {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/images/22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.h1-title {
+    margin-top: 135px;
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    font-weight: 700 bold;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.h3-title {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.blog-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-news {
+    margin-top: 50px;
+    font-weight: 700 bold;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem auto 0;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-area {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.meta-data {
+    padding: 0 10px;
+}
+
+.post-data-author {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card-description {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#post-1 .img-area {
+    background-color: #C7B9FF;
+}
+
+#post-2 .img-area {
+    background-color: #FFB8D8;
+}
+
+#post-3 .img-area {
+    background-color: #B8E0FF;
+}
+
+#post-4 .img-area {
+    background-color: #D4FFB8;
+}
+
+#post-5 .img-area {
+    background-color: #FFE4B8;
+}
+
+#post-6 .img-area {
+    background-color: #FFD4B8;
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 50px;
+    background-color: #252424;
+    color: white;
+    margin-top: 10rem;
+}
+
+.beforeFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.beforeFooter h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #5B47D1;
+    margin-bottom: 10px;
+}
+
+
+.beforeFooter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.beforeFooter li, 
+.beforeFooter p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #cccccc;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.beforeFooter a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.contact h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #5B47D1;
+    margin-bottom: 15px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    color: #cccccc;
+}
+
+.contact a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #020202;
+    text-align: center;
+    height: 55px;
+}
+
+.copyright {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    color: #86868B;
+}
